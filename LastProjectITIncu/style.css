@@ -23,6 +23,7 @@
 body{
     background: var(--bg-color);
     color: var(--text-color);
+    /* --------------------------ngga work------------------------------ */
 }
 header{
     position: fixed;
@@ -560,5 +561,14 @@ header.sticky{
     display: flex;
     align-items: center;
     font-size: 10px;
-    margin-left: 100px;
+    margin-left: 300px;
+}
+.Copy{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 420px;
+    gap: 10px;
+    margin-top: 20px;
+    color: var(--second-color);
 }
